@@ -2,11 +2,13 @@
   "name": "my-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://taejinii.github.io/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+ß    "start": "next start",
+    "lint": "next lint",
+
   },
   "dependencies": {
     "react": "^18",
